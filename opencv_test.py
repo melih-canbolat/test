@@ -6,6 +6,7 @@ if not cap.isOpened():
     exit()
 while True:
     # Capture frame-by-frame
+    # test note
     ret, frame = cap.read()
     # if frame is read correctly ret is True
     if not ret:
