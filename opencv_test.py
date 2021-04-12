@@ -3,10 +3,9 @@ import cv2 as cv
 cap = cv.VideoCapture(0)
 if not cap.isOpened():
     print("Cannot open camera")
-    exit()
+    exit()//jkk
 while True:
     # Capture frame-by-frame
-    # test note
     ret, frame = cap.read()
     # if frame is read correctly ret is True
     if not ret:
@@ -21,3 +20,4 @@ while True:
 # When everything done, release the capture
 cap.release()
 cv.destroyAllWindows()
+cv.VideoCapture
